@@ -8,7 +8,7 @@ export default function Home() {
       </div>
       <div className="flex-1 bg-green-500 text-white text-center">
   <div className="m-10 border-2 border-white p-4 flex items-center justify-center">
-    ENTRE EM CONTATO
+    ENTRE EM CONTATO CONOSCO, TEREMOS PRAZER EM LHE ATENDER!
   </div>
 </div>
     </div>
