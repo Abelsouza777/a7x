@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { SocialIcon } from 'react-social-icons/component'
 import 'react-social-icons/whatsapp'
-import {FaWhatsappSquare} from 'react-icons/fa'; // Import the WhatsApp icon
+
 
 export default function Home() {
   return (
