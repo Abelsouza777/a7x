@@ -1,5 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
+import { SocialIcon } from 'react-social-icons/component'
+import 'react-social-icons/whatsapp'
 import {FaWhatsappSquare} from 'react-icons/fa'; // Import the WhatsApp icon
 
 export default function Home() {
@@ -14,9 +16,12 @@ export default function Home() {
         className="object-cover"
       />
       <p className="mt-20 text-xl">ENTRE EM CONTATO</p>
-      <a href="https://wa.me/45999799513" target="_blank" rel="noopener noreferrer">
-      <FaWhatsappSquare />
-      </a>
+      <SocialIcon
+        url="https://wa.me/45999799513"
+        target="_blank"
+        rel="noopener noreferrer"
+        network="whatsapp"
+      />
     </div>
   );
 }
