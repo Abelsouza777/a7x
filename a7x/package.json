@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "git pull && npm install && npx prisma migrate deploy && next build && pm2 restart a7x"
+    //caso instale o banco de dados e mexa com o prisma:
+    //"deploy": "git pull && npm install && npx prisma migrate deploy && next build && pm2 restart a7x"
   },
   "dependencies": {
     "next": "14.2.13",
