@@ -13,7 +13,7 @@ export default function Home() {
         height={350}
         className="object-cover"
       />
-      <p className="mt-20 text-xl">ENTRE EM CONTATO</p>
+      <p className="mt-20 text-xl">CONTATO</p>
       <a href="https://wa.me/45999799513" target="_blank" rel="noopener noreferrer">
       <FaWhatsappSquare />
       </a>
