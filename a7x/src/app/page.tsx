@@ -55,23 +55,25 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-800">
         <div>
           <h2 className="text-xl font-semibold mb-4"></h2>
           <p>
             
           </p>
         </div>
-        <div>
-          <h2 className="text-xl font-semibold mb-4">ENTRE EM CONTATO</h2>
-           
-      <SocialIcon
-        url="https://wa.me/45999799513"
-        target="_blank"
-        rel="noopener noreferrer"
-        network="whatsapp"
-      />
-        </div>
+        <div className="text-center">
+  <h2 className="text-xl font-bold mb-4">ENTRE EM CONTATO</h2>
+  <div className="flex justify-center">
+   <SocialIcon
+              url="https://wa.me/45999799513"
+              target="_blank"
+              rel="noopener noreferrer"
+              network="whatsapp"
+            />
+  </div>
+</div>
+        
       </section>
     </div>
   );
