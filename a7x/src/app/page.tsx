@@ -63,7 +63,7 @@ export default function Home() {
           </p>
         </div>
         <div className="text-center">
-  <h2 className="text-xl font-bold mb-4">ENTRE EM CONTATO</h2>
+  <h2 className="text-xl font-bold mb-4 text-white">ENTRE EM CONTATO</h2>
   <div className="flex justify-center">
    <SocialIcon
               url="https://wa.me/45999799513"
