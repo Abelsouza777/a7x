@@ -10,7 +10,7 @@ export default function Home() {
       <header className="bg-gray-800 text-white p-4">
         <div className="container mx-auto flex items-center">
           <div className="logo">
-            <Image src="/A7 LOGO.png" alt="Logo" width={40} height={40} />
+            <Image src="/A7 LOGO.PNG" alt="Logo" width={40} height={40} />
           </div>
         </div>
       </header>
