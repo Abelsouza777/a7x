@@ -45,7 +45,7 @@ export default function Home() {
           <ul className="list-disc list-inside mt-4 text-justify">
       <li>Armazenamento em nuvem escalável;</li>
       <li>Backend com APIs eficientes e seguras;</li>
-      <li>Frontend especializado em cativar o seu </li>
+      <li>Frontend especializado em cativar e vender.</li>
     </ul>
         </div>
         <div>
