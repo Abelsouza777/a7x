@@ -1,7 +1,9 @@
 import Image from 'next/image';
-import React from 'react';
-import { SocialIcon } from 'react-social-icons/component'
-import 'react-social-icons/whatsapp'
+import React, { useState, useEffect } from 'react';
+import { SocialIcon } from 'react-social-icons/component';
+import 'react-social-icons/whatsapp';
+//import Typewriter from 'typewriter-effect';
+import TypingText from './TypingText';
 
 export default function Home() {
   return (
@@ -37,8 +39,11 @@ export default function Home() {
 
       {/* Duas Colunas de Texto (Seção 3 e 4) */}
       <section className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+       <div>
+        <div className="text-xl font-semibold mb-4 mx-auto">
+        <TypingText text="CRIAMOS SITES PROFISSIONAIS" delay={100} />
+        </div>
         <div>
-          <h2 className="text-xl font-semibold mb-4 text-center">DESENVOLVIMENTO DE SITES PROFISSIONAIS</h2>
           <p>
             Nosso objetivo é conectar você aos seus clientes de forma eficiente.
           </p>
@@ -48,6 +53,7 @@ export default function Home() {
       <li>Frontend especializado em cativar e vender.</li>
     </ul>
         </div>
+        </div>
         <div>
           <h2 className="text-xl font-semibold mb-4 text-center">TECNOLOGIAS</h2>
           <p>
@@ -56,12 +62,9 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 gap-8 bg-gray-800">
-        <div>
-          <h2 className="text-xl font-semibold mb-4"></h2>
-          <p>
-            
-          </p>
-        </div>
+      <div>
+      
+    </div>
         <div className="text-center">
   <h2 className="text-xl font-bold mb-4 text-white">ENTRE EM CONTATO</h2>
   <div className="flex justify-center">
