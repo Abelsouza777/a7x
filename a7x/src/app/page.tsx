@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { SocialIcon } from 'react-social-icons/component';
 import 'react-social-icons/whatsapp';
 //import Typewriter from 'typewriter-effect';
